@@ -1,0 +1,11 @@
+{
+  "name": "spec-driven",
+  "description": "Structured planning pipeline with 4 adaptive phases (Specify, Design, Tasks, Execute) and persistent knowledge accumulation for development teams. Auto-sizes depth by complexity from quick fixes to multi-component features. Use when planning features, specifying requirements, breaking work into tasks, or when user says 'plan this feature', 'specify X', 'help me structure this', 'how should we implement X', 'break this into tasks', 'vamos especificar', 'preciso planejar', 'implementar X', 'cria as tasks', 'quebra em tarefas', 'como vamos fazer X', 'me ajuda a planejar', 'initialize project', 'map codebase', 'quick fix', 'pause work', 'resume work'. Covers requirement traceability, atomic task creation with verification criteria, and session memory via docs/ knowledge base. Do NOT use for architecture decomposition analysis (use architecture skills), technical design docs (use technical-design-doc-creator), or general code review.",
+  "trigger": "/spec",
+  "scope": "public",
+  "audience": "development-teams",
+  "dependencies": {
+    "required": [],
+    "optional": ["mermaid-studio", "codenavi"]
+  }
+}
