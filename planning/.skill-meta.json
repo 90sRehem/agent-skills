@@ -1,0 +1,12 @@
+{
+  "name": "planning",
+  "description": "Plan how to build — design decisions, task breakdown, vertical slicing.",
+  "triggers": ["/plan", "plan this", "break into tasks", "create tasks for"],
+  "scope": "public",
+  "audience": "development-teams",
+  "version": "1.0.0",
+  "dependencies": {
+    "required": [],
+    "optional": []
+  }
+}

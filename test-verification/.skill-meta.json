@@ -1,0 +1,12 @@
+{
+  "name": "test-verification",
+  "description": "Verify against acceptance criteria — Prove-It pattern for bugs.",
+  "triggers": ["/test", "verify feature", "prove it works", "test this", "run tests"],
+  "scope": "public",
+  "audience": "development-teams",
+  "version": "1.0.0",
+  "dependencies": {
+    "required": [],
+    "optional": []
+  }
+}

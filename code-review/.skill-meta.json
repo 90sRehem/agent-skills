@@ -1,0 +1,12 @@
+{
+  "name": "code-review",
+  "description": "Structured quality review — five axes, severity labels, convention compliance.",
+  "triggers": ["/review", "review this", "code review", "check quality", "review changes"],
+  "scope": "public",
+  "audience": "development-teams",
+  "version": "1.0.0",
+  "dependencies": {
+    "required": [],
+    "optional": []
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "incremental-build",
+  "description": "Build one slice at a time — implement, verify, persist, advance.",
+  "triggers": ["/build", "build next task", "implement next", "resume work", "continue building"],
+  "scope": "public",
+  "audience": "development-teams",
+  "version": "1.0.0",
+  "dependencies": {
+    "required": [],
+    "optional": []
+  }
+}

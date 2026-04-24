@@ -1,0 +1,12 @@
+{
+  "name": "code-simplification",
+  "description": "Identify and apply simplification opportunities — one change at a time, verify after each.",
+  "triggers": ["/code-simplify", "simplify this", "reduce complexity", "clean up code", "refactor"],
+  "scope": "public",
+  "audience": "development-teams",
+  "version": "1.0.0",
+  "dependencies": {
+    "required": [],
+    "optional": []
+  }
+}

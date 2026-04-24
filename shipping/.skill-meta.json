@@ -1,0 +1,12 @@
+{
+  "name": "shipping",
+  "description": "Pre-flight checks and GO/NO-GO decision — verify everything before shipping.",
+  "triggers": ["/ship", "ready to ship", "pre-flight check", "can we ship this"],
+  "scope": "public",
+  "audience": "development-teams",
+  "version": "1.0.0",
+  "dependencies": {
+    "required": [],
+    "optional": []
+  }
+}
