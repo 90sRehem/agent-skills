@@ -1,0 +1,7 @@
+{
+  "name": "@runecraft/skills",
+  "dependencies": {},
+  "devDependencies": {
+    "@changesets/cli": "^2.31.0"
+  }
+}
