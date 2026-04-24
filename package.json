@@ -1,0 +1,30 @@
+{
+  "name": "agent-skills",
+  "version": "1.0.0",
+  "description": "AI agent skills for the full development lifecycle — spec, plan, build, test, review, simplify, ship.",
+  "type": "module",
+  "bin": {
+    "agent-skills": "./install.js"
+  },
+  "files": [
+    "install.js",
+    "spec-driven/",
+    "planning/",
+    "incremental-build/",
+    "test-verification/",
+    "code-review/",
+    "code-simplification/",
+    "shipping/",
+    "_shared/",
+    "commands/"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": ["ai", "agent", "skills", "opencode", "claude", "llm"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/90sRehem/agent-skills.git"
+  }
+}
