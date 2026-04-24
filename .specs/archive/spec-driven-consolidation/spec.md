@@ -1,8 +1,9 @@
 ---
 feature: spec-driven-consolidation
-status: draft
+status: DONE
 scope: Large
 created: 2026-04-24
+completed: 2026-04-24
 ---
 
 # spec-driven-consolidation
