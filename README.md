@@ -1,55 +1,41 @@
-# Arcanum
+# agent-skills
 
-A Bun monorepo for agent skills, CLI tools, and shared configurations for the Runecraft AI ecosystem.
+Reusable skills for AI coding agents — OpenCode, Claude Code, Cursor, GitHub Copilot, Windsurf, and more.
 
----
+## Available Skills
 
-## Packages
+| Skill | Description | Install |
+|-------|-------------|---------|
+| [spec-driven](./spec-driven/) | Structured planning pipeline with 4 adaptive phases (Specify, Design, Tasks, Execute) and persistent knowledge accumulation | `npx skills add 90sRehem/agent-skills@spec-driven` |
 
-| Package | npm name | Description | Status |
-|---------|----------|-------------|--------|
-| **spells** | `@runecraftai/spells` | Agent skill definitions (7 skills) | Active |
-| **grimoire** | `@runecraftai/grimoire` | Shared Biome and TypeScript configs | Active |
-| **summon** | `@runecraftai/summon` | CLI installer for agent skills | Scaffold |
-| **guild** | `@runecraftai/guild` | Agent party/swarm configurations | Placeholder |
-
----
-
-## Getting Started
-
-### Install Dependencies
+## Installation
 
 ```bash
-bun install
+# Install a skill globally
+npx skills add 90sRehem/agent-skills@spec-driven -g -y
 ```
 
-This uses Bun workspaces to resolve all local packages as symlinks in `node_modules/@runecraftai/`.
+## Skills
 
-### Build All Packages
+### spec-driven
+
+A 6-phase standalone planning + execution pipeline for structured software development.
+
+**Trigger:** `/spec <description>`
+
+**Phases:** LOAD → SPECIFY → DESIGN → TASKS → EXECUTE → LEARN
+
+**Scopes:**
+- `Quick` — single TASK.md, inline execution
+- `Medium` — spec.md + tasks.md
+- `Large` — spec.md + design.md + tasks.md
+
+**Knowledge base:** Accumulates context in `docs/` across sessions.
 
 ```bash
-bunx turbo build
+npx skills add 90sRehem/agent-skills@spec-driven -g -y
 ```
 
-Turborepo orchestrates builds across all packages with caching and parallel execution.
+## License
 
----
-
-## Development
-
-- **Lint**: `bunx turbo lint`
-- **Test**: `bunx turbo test`
-- **Build**: `bunx turbo build`
-
-For documentation on individual packages, see `packages/<package>/README.md`.
-
----
-
-## Architecture
-
-- **Bun Workspaces**: Native workspace support for local package resolution
-- **Turborepo v2**: Task orchestration with caching and parallelization
-- **Changesets**: Independent versioning per package
-- **Biome**: Unified linting and formatting via grimoire
-
-See `.specs/features/arcanum-monorepo-migration/` for architecture decisions.
+Skills are licensed under [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/).

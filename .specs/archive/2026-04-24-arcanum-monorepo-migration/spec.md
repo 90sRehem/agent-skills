@@ -1,6 +1,6 @@
 ---
 feature: arcanum-monorepo-migration
-status: draft
+status: DONE
 scope: large
 created: 2026-04-24
 ---
